@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "573260039706",
+    "firebase_url": "https://wiz-f15e0.firebaseio.com",
+    "project_id": "wiz-f15e0",
+    "storage_bucket": "wiz-f15e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573260039706:android:7f01c179ecd5cbdd68f3a3",
+        "android_client_info": {
+          "package_name": "com.incube.wiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573260039706-o83veonojjoog2oda0gc74ct0bhi9qnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.incube.wiz",
+            "certificate_hash": "832145016c16414da18bd1a95a27f1ec4f0ff0fc"
+          }
+        },
+        {
+          "client_id": "573260039706-2jg4uik289q132bdt93m5p5fr414ng0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzlyGCI1yg6r2JSvvO-07E7ryWxywkALY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573260039706-2jg4uik289q132bdt93m5p5fr414ng0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
