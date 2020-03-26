@@ -177,6 +177,38 @@ class _ProfileState extends State<Profile> {
             SizedBox(height: 10),
             Center(
               child: SizedBox(
+                width: width *0.8,
+                height: height * 0.3,
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(0, 204, 204, 0.7),
+                    borderRadius: BorderRadius.circular(30)
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Icon(bticon, size: 40),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(btText, style: TextStyle(
+                          decoration: TextDecoration.none,
+                          color: Colors.white,
+                          fontFamily: "Lato",
+                          fontSize: 16
+                        )),
+                      )
+                    ],                    
+                  ),
+                ),                
+              ),
+            ),
+            SizedBox(height: 10),
+            Center(
+              child: SizedBox(
                   width: width * 0.8,
                   height: height * 0.3,
                   child: Container(
@@ -187,6 +219,7 @@ class _ProfileState extends State<Profile> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisSize: MainAxisSize.min,
                       children: <Widget>[
                         Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -330,38 +363,6 @@ class _ProfileState extends State<Profile> {
                 ),
               ),
             )),
-            SizedBox(height: 20),
-            Center(
-              child: SizedBox(
-                width: width *0.8,
-                height: height * 0.3,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(0, 204, 204, 0.7),
-                    borderRadius: BorderRadius.circular(30)
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>[
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Icon(bticon, size: 40),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Text(btText, style: TextStyle(
-                          decoration: TextDecoration.none,
-                          color: Colors.white,
-                          fontFamily: "Lato",
-                          fontSize: 16
-                        )),
-                      )
-                    ],                    
-                  ),
-                ),                
-              ),
-            ),
             SizedBox(height: 100),
           ],
         ));
