@@ -18,5 +18,4 @@ An IOT Flutter Project for women Safety
 </table>
 This project is an IOT based Android Application that uses realtime location services to bring aid to needed.
 Project is open for suggestions.
-Visit the playstore link : 
 
